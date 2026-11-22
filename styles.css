@@ -923,3 +923,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .consent-actions .btn { flex: 1; }
   .video-facade .play span { width: 56px; height: 56px; }
 }
+/* contraste AA em fundos escuros: rótulos pequenos */
+.hero .eyebrow,
+.section--ink .eyebrow,
+.cta-final .eyebrow { color: #9ba1a9; }
