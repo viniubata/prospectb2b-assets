@@ -275,5 +275,5 @@ h1 .serif{display:inline-block;color:#c9c4ff}
 /* ---------- vídeo demonstrativo ---------- */
 .video-block{max-width:1000px;margin:0 auto}
 .video-frame{position:relative;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:#0b0b12;box-shadow:var(--shadow)}
-.video-frame video{display:block;width:100%;aspect-ratio:16/9;background:#0b0b12}
+.video-frame video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#0b0b12}
 .video-caption{display:flex;justify-content:space-between;gap:10px 20px;flex-wrap:wrap;margin-top:14px;font-size:12.8px;color:var(--text-muted)}
