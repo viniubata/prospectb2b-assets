@@ -4,7 +4,7 @@ window.PROSPECT_CONFIG = {
   checkout: "https://pay.hotmart.com/O108604594H",
 
   /* CDN de mídia (jsDelivr fixado por commit) — trocar o SHA a cada publicação */
-  cdn: "https://cdn.jsdelivr.net/gh/viniubata/prospectb2b-assets@fb48bfa",
+  cdn: "https://cdn.jsdelivr.net/gh/viniubata/prospectb2b-assets@1e6dd3c",
   videoSrc: "",
   videoPoster: "",
 
@@ -13,5 +13,5 @@ window.PROSPECT_CONFIG = {
   ga4Id: "",
 
   /* Versão publicada (aparece no console) */
-  versao: "2.0.0"
+  versao: "2.0.1"
 };
