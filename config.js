@@ -1,19 +1,17 @@
-/* Configuração pública do site — preencha os IDs quando estiverem disponíveis.
-   Nenhum segredo deve ser colocado aqui: este arquivo é servido ao navegador. */
+/* ProspectB2B PRO — configuração do site. Este arquivo é público: nada de segredo aqui. */
 window.PROSPECT_CONFIG = {
-  // Hotmart
-  checkoutParcelado: "https://pay.hotmart.com/O108604594H",      // oferta com parcelamento em até 12x
-  checkoutAVista: "https://pay.hotmart.com/O108604594H",         // oferta de pagamento único
-  checkoutAtivo: "https://pay.hotmart.com/O108604594H",          // usado pelos botões da página
+  /* Checkout oficial (Hotmart) */
+  checkout: "https://pay.hotmart.com/O108604594H",
 
-  // Rastreamento — deixe vazio para não carregar nenhum script de terceiros
-  metaPixelId: "",   // ex.: "123456789012345"
-  ga4Id: "",         // ex.: "G-XXXXXXXXXX"
+  /* CDN de mídia (jsDelivr fixado por commit) — trocar o SHA a cada publicação */
+  cdn: "https://cdn.jsdelivr.net/gh/viniubata/prospectb2b-assets@fb48bfa",
+  videoSrc: "",
+  videoPoster: "",
 
-  // Eventos de conversão
-  eventoCheckout: "InitiateCheckout",
-  eventoLead: "ViewContent",
+  /* Medição: deixe vazio para não carregar nenhum script de terceiros */
+  metaPixelId: "",
+  ga4Id: "",
 
-  // Versão publicada (aparece no console, útil para conferir o deploy)
-  versao: "1.0.0"
+  /* Versão publicada (aparece no console) */
+  versao: "2.0.0"
 };
